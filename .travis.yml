@@ -1,3 +1,6 @@
+before_script: echo "hola from .travis.yml"
+install: true
+
 import: 
   source: ./other.yml
   mode: deep_merge
@@ -6,4 +9,4 @@ env:
   global:
     FOO: foo
 
-before_script: echo "hola from .travis.yml"
+
