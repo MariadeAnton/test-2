@@ -6,4 +6,4 @@ env:
   global:
     FOO: foo
 
-before_script: echo "hello from .travis.yml"
+before_script: echo "hola from .travis.yml"
