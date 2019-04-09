@@ -1,4 +1,4 @@
-before_script: echo "hola from .travis.yml"
+before_script: echo "hi from .travis.yml"
 
 install: true
 
